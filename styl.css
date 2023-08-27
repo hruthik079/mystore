@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signout-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #41a4db;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
